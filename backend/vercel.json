@@ -10,5 +10,10 @@
             "src": "/(.*)",
             "dest": "index.js"
         }
-    ]
+    ],
+    "env": {
+        "PORT": "@port",
+        "MONGO_CONN": "@mongo_conn",
+        "JWT_SECRET": "@jwt_secret"
+    }
 }
